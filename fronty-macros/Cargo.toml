@@ -1,0 +1,12 @@
+[package]
+name = "fronty-macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+
+[dependencies]
+pest = "2.1.2"
+pest_derive = "2.1.0"
